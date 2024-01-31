@@ -46,6 +46,9 @@ body {
 .navbar {
     background-color: #FFF;
     height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 .navbar .container .navbar-brand {
     color: #FFF;
@@ -102,6 +105,9 @@ body {
         text-align: center;
         padding-left: 15px;
     }
+}
+.landing .container {
+    margin-top: 100px;
 }
 .landing .container .intro-text {
     width: 300px;
@@ -258,8 +264,8 @@ body {
 .projects .cards .card img {
     width: 100px;
     height: 132.65px;
-    margin-left: 150px;
-    transform: translateX(-45px);
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 /* End Projects */
 /* Start Contact  */
