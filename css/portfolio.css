@@ -261,6 +261,9 @@ body {
 .projects .cards .card:hover {
     opacity: 1;
 }
+.projects .cards .card {
+    text-decoration: none;
+}
 .projects .cards .card img {
     width: 100px;
     height: 132.65px;
