@@ -157,6 +157,7 @@ body {
 @media (max-width:767px) {
     .about-me .box {
         width: 351.2px;
+        padding: 20px 0;
     }
 }
 .about-me .box::before {
