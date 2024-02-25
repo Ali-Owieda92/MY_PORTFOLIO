@@ -17,6 +17,7 @@ body {
     border: 1px solid #333;
     margin: 20px auto;
     position: relative;
+    padding: 10px;
 }
 .special-heading::before {
     content: " ";
