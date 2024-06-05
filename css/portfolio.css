@@ -2,11 +2,6 @@
     --main-Color:#2196f3;
     --secondary-Color:#198754;
 }
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 body {
     font-family: Arial , sans-serif;
 }
@@ -230,7 +225,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-    max-width: 300px;
+    min-width: 300px;
 }
 .skills .cards .card:hover {
     background-color: #EEE;
@@ -277,7 +272,7 @@ body {
     text-decoration: none;
 }
 .projects .cards .card img {
-    width: 100px;
+    width: 150px;
     height: 132.65px;
     margin-left: 50%;
     transform: translateX(-50%);
