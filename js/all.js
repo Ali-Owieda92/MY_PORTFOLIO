@@ -8,7 +8,6 @@ let paragraph = document.querySelector(".projects .show a .text p");
 
 links.forEach((link)=> {
     link.onclick = (e) => {
-        e.preventDefault();
         mainLink.href = link.href;
         mainImg.src = link.firstElementChild.src;
         mainHeading.innerHTML = link.lastElementChild.firstElementChild.innerHTML;

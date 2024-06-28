@@ -354,19 +354,25 @@ body {
     color: #676767;
 }
 /* End Contact  */
+@media (max-width:991px) {
+    .landing {
+        height: auto;
+    }
+    .basics {
+        max-width: 88%;
+    }
+    .projects .show {
+        margin-bottom: 10px;
+    }
+    .projects .cards {
+        grid-template-columns: repeat(2,minmax(300px,1fr));
+    }
+}
 @media (max-width:767px) {
     .projects .show {
         display: none;
     }
     .projects .cards {
         grid-template-columns: repeat(1,minmax(300px,1fr));
-    }
-}
-@media (max-width:991px) {
-    .projects .show {
-        margin-bottom: 10px;
-    }
-    .projects .cards {
-        grid-template-columns: repeat(2,minmax(300px,1fr));
     }
 }
