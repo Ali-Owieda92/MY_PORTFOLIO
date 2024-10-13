@@ -195,7 +195,7 @@ body {
     .basics .container img {
         width: 50px;
         height: 80px;
-        margin-right: 5px;
+        margin-right: 25px;
     }
 }
 /* End Basic  */
@@ -226,9 +226,10 @@ body {
     align-items: center;
     padding: 20px;
     min-width: 300px;
+    box-shadow: 1px 4px 0px var(--main-Color);
 }
 .skills .cards .card:hover {
-    background-color: #EEE;
+    box-shadow: 1px 4px 4px var(--main-Color);
 }
 .skills .cards .card img {
     width: 50px;
@@ -300,6 +301,10 @@ body {
     text-align: center;
     padding: 5px;
     text-decoration: none;
+    box-shadow: 1px 1px 1px 2px var(--main-Color);
+}
+.projects .cards .card:hover {
+    box-shadow: 1px 1px 5px 2px var(--main-Color);
 }
 .projects .cards .card img {
     width: 100%;
@@ -318,6 +323,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+}
+.contact ul {
+    display: flex;
 }
 @media (max-width:767px) {
     .contact .container {
@@ -332,17 +341,38 @@ body {
         text-align: center;
     }
 }
+.contact .container ul {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .contact .container li {
     list-style: none;
     padding: 10px;
     cursor: pointer;
 }
 .contact .container li a {
+    position: relative;
     text-decoration: none;
     color: rebeccapurple;
+    background-color: #EEE;
+    padding: 20px;
+    border-radius: 50%;
 }
-.contact .container li a:hover {
-    color: var(--main-Color);
+.contact .container li .git:hover {
+    background-color: #9E9E9E;
+    color: #FFF;
+}
+.contact .container li .linked:hover {
+    background-color: #673ab7;
+    color: #FFF;
+}
+.contact .container li .facebook:hover {
+    background-color: blue;
+    color: #FFF;
+}
+.contact .container li .twitter:hover {
+    background-color: #3f51b5;
+    color: #FFF;
 }
 .contact .container .info h3{
     text-align: center;
